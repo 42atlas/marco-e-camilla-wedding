@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "marco-e-camilla-wedding",
+  "private_key_id": "804472ead5795ebaef1b9171e7a3cb6e12e8ad65",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC5iOXZICooPMHd\nWnf2MLeuqyRI6Hj0Gk1dKyW9gVSB+QJVS0e1r4ej6hIJq726MUhVInyQExZDI6hE\n0ErPrf0ca+Mf4eF555lcwnjSn9kOoF5bp1qSJ0TnVBhzOcQjzCbk4BVDzMnfmPTk\nY06rVyLDcnzLBaEyQRBjxqInrP+4r3xBLZS6SUHr3Azfdxky0Hjzm+rOHZGIQC0Y\njIgTJWkTUyHmYTfzFAmD+EuCWcl3YnWp2NKrpuPPLCn1xvBAgLjjp/AFhlkMrrtP\nuMVKJIqyjYYPClAXD0cBBdmcPCaDowJdI2ZIOJDbDfO2uyxJsmz5z6W4C3M8xgUh\nZWGNJt4rAgMBAAECggEANQMCFZNkqEGP7PTMAPpziUNaJ0DRSoH3Z+8LpgV9hXOG\nMKPFVgrU2Udopv28xKYPMlAbwjjJ7B4UlrDjJ0rh3syOxU3PlHrRrZjdV+UXal/1\nBgAf11HEFMrI/6daPRY4aL4EJW6uoaY9FsKvODK5+plMQeAWalr/2Vpoe6ipGnYA\nLBJT/4+E5tvVVikJ6m3XbsL7IWj80aaawkaFIjBvJ7n+n408iD8dLbYq/YaVMhBu\n7ouz9cXYyuMNQE87KfcobT727VH5Dtpj3h6wyWk3woCHdj5AoyoZjzWO4qj4+Lap\noy8H8hvsO2uIZEWu+JCFI5G+0UcU4HsArcvhDH5hpQKBgQD2xape4YWcULXfbNZ5\nC0NIw8tEQMaNcRRd+3YsGV7wvxX+Ee6C6XqwuBmpi+S6J5LxqmJAW8QFS/lHdbri\naBfA1CSZ5YSsrBsABsY8FQ5wnwHTdA1Q1b1pAr/sYdww6OCvliPJov0RkQayAHAe\nUkFxzRoL4cuZWwS54g1NEbC3PwKBgQDAeQK9u620hCMljX/4jYq+M6andnWkpmYC\nMNvhyVgZBmLaoHcbsBr4qbNaji+gqzNnfmX9AJ3NKRnS1btHNr5lGncT7NmsT6/g\np7AhII1YtvsckTCfBJUO21I1fbGaG4T4E/ALo9U5pLZtpasApb4Mu+xwCXMN8OCG\nCw0KegiqFQKBgBMgz0v7fzfWqcJf1WAcl2KUirUHsFxWX5XJYCea79kJdtLy4OIU\n5wW7v4F87oXfe2xwIJ2Mf21JrlDzt0DFgNHZn9yuBdK8pHskC0ms+CmSqbmSTVXu\nu3fgVrAkBcVkx8XUhYGjuKob68Dwd8Bh7+C6XUJ+hiGlBIDEHPPUYzZRAoGADO2T\n446hokhl2/XfLKDFOvVZMlJgoIiUvXzuqAHQKw4kwa6ZkYCIrz8mzuRSCqa1MzRo\nQVAzST6Df4ffpm7k5wGaEfqMvGg11g8tY2w+UkEoKMkPzP6PzImqwfEJZuKGUet0\n6jM89Tw9DKxeChMX6t8MiJH56mvNiPNhEt0Ti+kCgYBs7stk1tHyuclGDcndJFax\nd1srMjg4Kzc4RjewkkcHdPSN2X+3BAUkXcq740uy9bt7/cr4wFgo91RgGwwWB/0K\nQrRWpEjBxWKkT8lCUj5tZTQx7ou/go/JyGgy/SB/JFHcthW+xqnDXeOkpaAQi3ZY\nl2p2OgGy8jUqhYzmoFwK3Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "spreadsheet@marco-e-camilla-wedding.iam.gserviceaccount.com",
+  "client_id": "103620771771006513087",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/spreadsheet%40marco-e-camilla-wedding.iam.gserviceaccount.com"
+}
