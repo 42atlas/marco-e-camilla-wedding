@@ -1,5 +1,8 @@
 {
-  "invitato": "GUEST",
-  "English": "English",
-  "Korean": "Korean"
+  "guest": "GUEST",
+  "guest2": "+1 POSSIBLE",
+  "name": "Name and Surname",
+  "allergy": "ANY ALLERGIES OR INTOLLERANCES?",
+  "confirm": "Confirmation of Participation",
+  "confirm2": "*Confirmation welcome by early August"
 }

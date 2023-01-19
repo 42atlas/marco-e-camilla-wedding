@@ -52,11 +52,11 @@ const Home: NextPage = () => {
           </li>
         </ul>
       </nav>
-      <div className='max-w-5xl mx-auto py-16'>
-        <form className='py-4 space-y-4' onSubmit={handleSubmit}>
-          <div className='flex flex-col items-center justify-center'>
+      <div className='max-w-xl mx-auto py-16 px-4'>
+        <form className='py-4 space-y-2' onSubmit={handleSubmit}>
+          <div className='flex flex-col items-start justify-center '>
             <label htmlFor='name' className=' sm:text-md  py-3'>
-              {t('invitato')}
+              {t('guest')}
             </label>
             <input
               value={name}
@@ -64,14 +64,13 @@ const Home: NextPage = () => {
               type='text'
               name='name'
               id='name'
-              className='shadow-md focus:ring-indigo-500 focus:border-indigo-500 block w-64 sm:text-md border-gray-300 rounded-md'
-              placeholder='Nome e Cognome'
+              className='shadow-md focus:ring-pink-300 focus:border-pink-300 block w-full sm:text-md border-gray-300 rounded-md'
+              placeholder={t('name')}
             />
           </div>
-          <div className='flex flex-col items-center justify-center'>
+          <div className='flex flex-col items-start justify-center'>
             <label htmlFor='name' className='sm:text-md  py-3'>
-              {' '}
-              +1 EVENTUALE{' '}
+              {t('guest2')}
             </label>
             <input
               value={nametwo}
@@ -79,34 +78,31 @@ const Home: NextPage = () => {
               type='text'
               name='secondname'
               id='secondname'
-              className='shadow-md focus:ring-indigo-500 focus:border-indigo-500 block w-64 sm:text-md border-gray-300 rounded-md'
-              placeholder='Nome e Cognome'
+              className='shadow-md focus:ring-pink-300 focus:border-pink-300 block w-full sm:text-md border-gray-300 rounded-md'
+              placeholder={t('name')}
             />
           </div>
-          <div className='flex flex-col items-center justify-center'>
+          <div className='flex flex-col items-start justify-center'>
             <label htmlFor='message' className='sm:text-md  py-3'>
-              {' '}
-              Eventuali allergie o intolleranze?{' '}
+              {t('allergy')}
             </label>
             <textarea
               value={alle}
               onChange={(e) => setAlle(e.target.value)}
               name='allergie'
               id='allergie'
-              className='shadow-md focus:ring-indigo-500 focus:border-indigo-500 block w-64 sm:text-md border-gray-300 rounded-md'
+              className='shadow-md focus:ring-pink-300 focus:border-pink-300 block w-full sm:text-md border-gray-300 rounded-md'
               placeholder='...'
             />
           </div>
-          <div className='flex flex-col items-center justify-center'>
+          <div className='flex flex-col items-end justify-center py-5'>
             <button
               type='submit'
-              className='flex items-start justify-start text-sm w-32 rounded-md shadow py-3 px-2 bg-indigo-500 text-white hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+              className='flex items-start justify-start text-start text-sm w-40 rounded-md shadow py-3 px-4 bg-pink-300 text-white hover:bg-pink-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-300'
             >
-              Conferma Partecipazione
+              {t('confirm')}
             </button>
-            <p className='italic text-sm w-32 py-2'>
-              *Conferma Gradita entro inizio Agosto
-            </p>
+            <p className='italic text-sm w-32 py-2 text-end'>{t('confirm2')}</p>
           </div>
         </form>
       </div>
