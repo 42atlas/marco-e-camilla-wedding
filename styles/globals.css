@@ -1,3 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Tangerine:wght@700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  #doc {
+    background: linear-gradient(180deg, #ffffff 0%, #eae7dd 63.02%);
+  }
+  /* .bubbles {
+    position: fixed;
+    top: 0;
+    left: 5rem;
+    transform-origin: center;
+    transform: translate3d(10rem, 5rem, 0) rotateX(20deg) rotateY(0deg);
+  }
+  .bubbles__inner {
+    width: 10rem;
+    height: 10rem;
+  }
+  .bubbles__bubble {
+    position: absolute;
+
+    background-image: url('../public/images/cuori.png');
+    background: radial-gradient(transparent 30%, var(--c, white)),
+      radial-gradient(circle at 100% 0%, transparent 30%, var(--c, white));
+    transform-origin: center;
+    transform: scale(0);
+    opacity: 0;
+  }
+  .bubbles__bubble:nth-child(2) {
+    --size: 1.8rem;
+    top: 3rem;
+    left: 2rem;
+  }
+  .bubbles__bubble:nth-child(3) {
+    --size: 1.2rem;
+    top: 6rem;
+    left: 0;
+  } */
+
+  .fixed-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .absolute-img {
+    position: absolute;
+  }
+}

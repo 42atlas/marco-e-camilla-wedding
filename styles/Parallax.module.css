@@ -1,0 +1,17 @@
+.parallax_home {
+  background-image: url('/images/home.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.parallax_3 {
+  background-image: url('/images/intro.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}

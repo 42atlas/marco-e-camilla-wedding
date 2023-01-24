@@ -1,8 +1,24 @@
 {
-  "guest": "INVITATO",
-  "guest2": "+1 EVENTUALE",
+  "sposano": "Si sposano!",
+  "sabato": "Sabato 23",
+  "settembre": "Settembre 2023",
+  "itinerario": "Itinerario",
+  "ore15": "ore 15:00",
+  "cerimonia": "Si svolgerà la cerimonia presso la chiesa a Pieve di San Leolino",
+  "ore17": "ore 17:00",
+  "festa": "Ci vediamo presso Villa le Corti a San Casciano Val di Pesa per i festeggiamenti",
+  "villa": "Villa Le Corti, tipico esempio di elegante e raffinata architettura rinascimentale toscana, sorge nel cuore del Chianti Classico. La Villa è circondata da vigneti e oliveti. Il cuore della Villa è la corte interna a forma quadrata, racchiusa da un loggiato perimetrale. Dalla corte si accede in maniera indipendente a tutti i saloni che hanno conservato intatto il segno dei secoli.",
+  "asp": "Vi Aspettiamo!",
+  "partecipazione": "Partecipazione",
+  "guest": "NOME E COGNOME INVITATO",
+  "guest2": "EVENTUALI ACCOMPAGNATORI",
   "name": "Nome e Cognome",
-  "allergy": "EVENTUALI ALLERGIE O INTOLLERANZE ?",
+  "allergy": "NOTE",
+  "note": "Specificare allergie, intolleranze ed eventuali menù per bambini",
+  "transport": "TRASPORTO",
+  "transplace": "Specificare se si necessita navetta da Firenze ai luoghi della cerimonia e ritorno",
   "confirm": "Conferma Partecipazione",
-  "confirm2": "*Conferma Gradita entro inizio Agosto"
+  "confirm2": "*Conferma Gradita entro inizio Agosto",
+  "presenza": "La vostra presenza è il regalo più prezioso, ma se volete farci un pensiero potete contribuire alla realizzazione del nostro prossimo viaggio, grazie!",
+  "iban": "IBAN: IT54 P030 6905 4651 0000 0002 344"
 }

@@ -5,6 +5,7 @@ type SheetForm = {
     name: string
     nametwo: string
     alle: string
+    transport: string
 }
 
 export default async function handler(
@@ -38,11 +39,11 @@ export default async function handler(
 
         const response = await sheets.spreadsheets.values.append({
             spreadsheetId: process.env.GOOGLE_SHEET_ID,
-            range: "A1:C1",
+            range: "A1:D1",
             valueInputOption: "USER_ENTERED",
             requestBody: {
                 values: [
-                    [body.name, body.nametwo, body.alle]
+                    [body.name, body.nametwo, body.alle, body.transport]
                 ]
             }
         })
