@@ -26,13 +26,13 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
   return (
     <div className='relative h-full w-full'>
       <button
-        className='absolute left-0 top-72 m-4 text-3xl font-medium text-white bg-[#E3AB8B] rounded-full p-2 px-3 z-50'
+        className='absolute left-0 land:top-16 top-72 m-4 text-3xl font-medium text-white bg-[#E3AB8B] rounded-full p-2 px-3 z-50'
         onClick={handlePreviousClick}
       >
         &#x21AB;
       </button>
       <button
-        className='absolute right-0 top-72 m-4 text-3xl font-medium text-white bg-[#E3AB8B] rounded-full p-2 px-3 z-50'
+        className='absolute right-0 top-72 land:top-16  m-4 text-3xl font-medium text-white bg-[#E3AB8B] rounded-full p-2 px-3 z-50'
         onClick={handleNextClick}
       >
         &#x21AC;
