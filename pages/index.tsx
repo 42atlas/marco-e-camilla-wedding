@@ -305,7 +305,11 @@ const Home: NextPage = () => {
         <footer className='flex flex-col items-center justify-center z-50'>
           <div className='font-[Lato] text-md flex flex-row items-center justify-center flex-nowrap p-2'>
             Made with ❤️ by
-            <a href='https://raffaelli.studio/' target='_blank'>
+            <a
+              href='https://raffaelli.studio/'
+              target='_blank'
+              rel='noreferrer'
+            >
               Raffaelli.Studio
             </a>
           </div>

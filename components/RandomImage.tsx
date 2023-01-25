@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 interface Props {
   src: string
@@ -18,21 +19,21 @@ const ImagePopup: React.FunctionComponent<Props> = ({ src }) => {
         y: Math.floor(Math.random() * (window.innerHeight - imageHeight)),
       })
     }, 5000)
-  }, [])
+  }, [showImage])
 
   return (
     <div className='fixed top-0 left-0 w-full h-full'>
       {showImage && (
-        <img
+        <Image
           src={src}
           className='absolute'
           style={{
             top: imagePosition.y,
             left: imagePosition.x,
             transition: 'all 1s ease-in-out',
-            width: imageWidth,
-            height: imageHeight,
           }}
+          height={imageHeight}
+          width={imageWidth}
           alt='Random'
         />
       )}
