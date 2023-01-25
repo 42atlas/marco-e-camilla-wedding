@@ -116,6 +116,7 @@ const Home: NextPage = () => {
                     <a
                       href='https://goo.gl/maps/4WgTXVDMrXwJ6d4C8'
                       target='_blank'
+                      rel='noreferrer'
                     >
                       <p className='font-[Lato] text-xs text-[#C5B8B8] font-bold'>
                         LINK GOOGLE MAPS
@@ -141,6 +142,7 @@ const Home: NextPage = () => {
                     <a
                       href='https://goo.gl/maps/BcJXguoGUadPvCcM8'
                       target='_blank'
+                      rel='noreferrer'
                     >
                       <p className='font-[Lato] text-xs text-[#C5B8B8] font-bold'>
                         LINK GOOGLE MAPS
