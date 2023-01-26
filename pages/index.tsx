@@ -184,7 +184,7 @@ const Home: NextPage = () => {
       </section>
       <section className='h-screen w-full' id='section_6'>
         <div className='w-full h-full flex flex-col justify-start items-center'>
-          <h1 className='land:text-5xl text-7xl md:text-9xl font-bold text-center text-[#6D8776] font-[Tangerine] mt-5'>
+          <h1 className='land:text-5xl text-7xl md:text-9xl font-bold text-center text-[#6D8776] font-[Tangerine] mt-5 land:mt-10'>
             {t('partecipazione')}
           </h1>
           <div className='w-full lg:max-w-[40%] py-8 px-4 z-40 land:py-0 h-full'>
