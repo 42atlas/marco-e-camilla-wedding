@@ -89,10 +89,10 @@ const Home: NextPage = () => {
             {t('sposano')}
           </h2>
           <br />
-          <h2 className='text-4xl md:text-8xl font-light font-[Lato] text-center py-6'>
+          <h2 className='land:text-2xl text-4xl md:text-8xl font-light font-[Lato] text-center py-6'>
             {t('sabato')}
           </h2>
-          <h2 className='text-4xl md:text-8xl font-light font-[Lato] text-center'>
+          <h2 className='land:text-2xl text-4xl md:text-8xl font-light font-[Lato] text-center'>
             {t('settembre')}
           </h2>
         </div>
@@ -102,7 +102,7 @@ const Home: NextPage = () => {
       </section>
       <section className='h-screen w-full' id='section_4'>
         <div className='w-full h-full flex flex-col items-center '>
-          <h3 className='text-5xl font-bold text-[#ADA08F] font-[Tangerine] p-8 land:p-3 md:mt-10'>
+          <h3 className='text-5xl font-bold text-[#ADA08F] font-[Tangerine] p-8 land:p-3 md:mt-10 land:mt-2'>
             {t('itinerario')}
           </h3>
           <div className='flex flex-col h-[60%] items-center justify-center px-5 z-50'>
