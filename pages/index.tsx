@@ -6,9 +6,9 @@ import useTranslation from 'next-translate/useTranslation'
 import Fish from '../components/Fish'
 import buttone_ita from '../public/images/button_ita.png'
 import buttone_eng from '../public/images/button_eng.png'
-import style from '../styles/Parallax.module.css'
-import ImageSlider from '../components/ImageSlider'
+/* import ImageSlider from '../components/ImageSlider' */
 import ImagePopup from '../components/RandomImage'
+/* import lastImage from '../public/images/1.jpg' */
 
 const Home: NextPage = () => {
   const [name, setName] = useState('')
@@ -17,12 +17,12 @@ const Home: NextPage = () => {
   const [transport, setTransport] = useState('')
   const { t } = useTranslation('common')
   const [language, setLanguage] = useState('it')
-  const images = [
+  /*   const images = [
     '/images/1.jpg',
     '/images/2.jpg',
     '/images/3.jpg',
     '/images/4.jpg',
-  ]
+  ] */
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -75,7 +75,7 @@ const Home: NextPage = () => {
         <Fish />
       </div>
       <section className='h-screen w-full' id='section_1'>
-        <div className={style.parallax_home}>
+        <div className="bg-[url('/images/home.jpg')] bg-fixed bg-center bg-no-repeat bg-cover h-screen">
           <div className='w-full h-full flex flex-col justify-center items-center z-10'>
             <h1 className='text-7xl md:text-9xl font-bold text-center font-[Tangerine] text-white'>
               Marco & Camilla
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
         </div>
       </section>
       <section className='h-screen w-full' id='section_3'>
-        <div className={style.parallax_3}></div>
+        <div className="bg-[url('/images/intro.jpg')] bg-fixed bg-center bg-no-repeat bg-cover h-screen"></div>
       </section>
       <section className='h-screen w-full' id='section_4'>
         <div className='w-full h-full flex flex-col items-center '>
@@ -301,9 +301,7 @@ const Home: NextPage = () => {
             {t('iban')}
           </p>
         </div>
-        <div className='w-full h-full z-50 '>
-          <ImageSlider images={images} />
-        </div>
+        <div className="bg-[url('/images/1.jpg')] bg-fixed bg-center bg-no-repeat bg-cover h-full w-full z-30"></div>
         <footer className='flex flex-col items-center justify-center z-50'>
           <div className='font-[Lato] text-md flex flex-row items-center justify-center flex-nowrap p-2'>
             Made with ❤️ by
