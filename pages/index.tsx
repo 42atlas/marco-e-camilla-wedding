@@ -306,7 +306,7 @@ const Home: NextPage = () => {
         <div className="bg-[url('/images/1.jpg')] lg:bg-fixed bg-center bg-no-repeat bg-cover h-full w-full z-30"></div>
         <footer className='flex flex-col items-center justify-center z-50'>
           <div className='font-[Lato] text-md flex flex-row items-center justify-center flex-nowrap p-2'>
-            Made with ❤️ by{' '}
+            Made with ❤️ by&nbsp;
             <a
               href='https://raffaelli.studio/'
               target='_blank'
