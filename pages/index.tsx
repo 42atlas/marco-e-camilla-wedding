@@ -75,7 +75,7 @@ const Home: NextPage = () => {
         <Fish />
       </div>
       <section className='h-screen w-full' id='section_1'>
-        <div className="bg-[url('/images/home.jpg')] bg-fixed bg-center bg-no-repeat bg-cover h-screen">
+        <div className="bg-[url('/images/home.jpg')] lg:bg-fixed bg-center bg-no-repeat bg-cover h-screen">
           <div className='w-full h-full flex flex-col justify-center items-center z-10'>
             <h1 className='text-7xl md:text-9xl font-bold text-center font-[Tangerine] text-white'>
               Marco & Camilla
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
         </div>
       </section>
       <section className='h-screen w-full' id='section_3'>
-        <div className="bg-[url('/images/intro.jpg')] bg-fixed bg-center bg-no-repeat bg-cover h-screen"></div>
+        <div className="bg-[url('/images/intro.jpg')] lg:bg-fixed bg-center bg-no-repeat bg-cover h-screen"></div>
       </section>
       <section className='h-screen w-full' id='section_4'>
         <div className='w-full h-full flex flex-col items-center '>
@@ -281,7 +281,7 @@ const Home: NextPage = () => {
                     )}
                   </div>
                 </button>
-                <p className='italic text-sm text-start  text-[#ADA08F] font-[Lato]'>
+                <p className='italic text-md lg:text-xl text-start  text-[#ADA08F] font-[Lato]'>
                   {t('confirm2')}
                 </p>
               </div>
@@ -301,7 +301,7 @@ const Home: NextPage = () => {
             {t('iban')}
           </p>
         </div>
-        <div className="bg-[url('/images/1.jpg')] bg-fixed bg-center bg-no-repeat bg-cover h-full w-full z-30"></div>
+        <div className="bg-[url('/images/1.jpg')] lg:bg-fixed bg-center bg-no-repeat bg-cover h-full w-full z-30"></div>
         <footer className='flex flex-col items-center justify-center z-50'>
           <div className='font-[Lato] text-md flex flex-row items-center justify-center flex-nowrap p-2'>
             Made with ❤️ by
