@@ -101,8 +101,8 @@ const Home: NextPage = () => {
         <div className="bg-[url('/images/intro.jpg')] lg:bg-fixed bg-center bg-no-repeat bg-cover h-screen"></div>
       </section>
       <section className='h-screen w-full' id='section_4'>
-        <div className='w-full h-full flex flex-col items-center '>
-          <h3 className='text-5xl font-bold text-[#ADA08F] font-[Tangerine] p-8 land:p-3 md:mt-10 land:mt-2'>
+        <div className='w-full h-full flex flex-col items-center justify-start lg:justify-evenly land:justify-start mt-4 lg:mt-0 land:mt-2'>
+          <h3 className='text-7xl font-bold text-[#ADA08F] font-[Tangerine] pb-16 land:pb-3 land:text-5xl'>
             {t('itinerario')}
           </h3>
           <div className='flex flex-col h-[60%] items-center justify-center px-5 z-50'>
@@ -112,7 +112,7 @@ const Home: NextPage = () => {
                   <td className='p-4 font-[Lato] text-[#6D8776] font-bold pr-5 md:pr-20 pb-16'>
                     {t('ore15')}
                   </td>
-                  <td className='p-4 flex flex-col items-start'>
+                  <td className='p-4 flex flex-col items-start space-y-2 land:space-y-0'>
                     <a
                       href='https://goo.gl/maps/4WgTXVDMrXwJ6d4C8'
                       target='_blank'
@@ -122,13 +122,13 @@ const Home: NextPage = () => {
                         LINK GOOGLE MAPS
                       </p>
                     </a>
-                    <p className='font-[Lato] text-xl md:text-4xl text-[#6D8776] font-bold'>
+                    <p className='font-[Lato] text-2xl md:text-6xl text-[#6D8776] font-bold'>
                       Pieve San Leolino
                     </p>
-                    <p className='font-[Tangerine] text-2xl md:text-4xl text-[#2B1105] font-bold pt-1'>
+                    <p className='font-[Tangerine] text-3xl md:text-6xl text-[#2B1105] font-bold pt-1'>
                       Località San Leolino 1 Panzano in Chianti(FI)
                     </p>
-                    <p className='font-[Lato] text-xs md:text-sm text-[#2B1105] font-normal pt-2'>
+                    <p className='font-[Lato] text-md md:text-lg text-[#2B1105] font-normal pt-2'>
                       {t('cerimonia')}
                     </p>
                   </td>
@@ -138,7 +138,7 @@ const Home: NextPage = () => {
                   <td className='p-4 pt-10 font-[Lato] text-[#6D8776] font-bold pr-5 md:pr-20 pb-16'>
                     {t('ore17')}
                   </td>
-                  <td className='p-4 pt-10 land:pt-0 flex flex-col items-start'>
+                  <td className='p-4 pt-10 land:pt-0 flex flex-col items-start space-y-2 land:space-y-0'>
                     <a
                       href='https://goo.gl/maps/BcJXguoGUadPvCcM8'
                       target='_blank'
@@ -148,13 +148,13 @@ const Home: NextPage = () => {
                         LINK GOOGLE MAPS
                       </p>
                     </a>
-                    <p className='font-[Lato] text-xl md:text-4xl text-[#6D8776] font-bold'>
+                    <p className='font-[Lato] text-2xl md:text-6xl text-[#6D8776] font-bold'>
                       Villa le Corti
                     </p>
-                    <p className='font-[Tangerine] text-2xl md:text-4xl text-[#2B1105] font-bold pt-1'>
+                    <p className='font-[Tangerine] text-3xl md:text-6xl text-[#2B1105] font-bold pt-1'>
                       Via Grevigiana 4 San Casciano Val di Pesa
                     </p>
-                    <p className='font-[Lato] text-xs md:text-sm text-[#2B1105] font-normal pt-2'>
+                    <p className='font-[Lato] text-md md:text-lg text-[#2B1105] font-normal pt-2'>
                       {t('festa')}
                     </p>
                   </td>
@@ -166,7 +166,7 @@ const Home: NextPage = () => {
       </section>
       <section className='h-screen w-full ' id='section_5'>
         <div className='w-full h-[60%] md:h-[75%] flex flex-col justify-between items-center bg-[url(/images/villa.jpg)] bg-cover bg-no-repeat bg-bottom'>
-          <h1 className='text-6xl md:text-8xl font-[Tangerine] font-normal text-center text-[#ffffff] py-8'>
+          <h1 className='text-6xl md:text-8xl font-[Tangerine] font-normal text-center text-[#ffffff] py-8 mt-4'>
             Villa le Corti
           </h1>
         </div>
@@ -281,7 +281,7 @@ const Home: NextPage = () => {
                     )}
                   </div>
                 </button>
-                <p className='italic text-md lg:text-xl text-start  text-[#ADA08F] font-[Lato]'>
+                <p className='italic text-xl lg:text-3xl text-start  text-[#ADA08F] font-[Lato]'>
                   {t('confirm2')}
                 </p>
               </div>
@@ -298,7 +298,9 @@ const Home: NextPage = () => {
             {t('presenza')}
           </p>
           <p className='font-[Lato] text-md md:text-2xl text-[#6D8776] text-center py-8'>
-            {t('iban')}
+            IBAN IT: IT54 P030 6905 4651 0000 0002 344
+            <br />
+            IBAN SE: SE78 5000 0000 0527 3021 7363
           </p>
         </div>
         <div className="bg-[url('/images/1.jpg')] lg:bg-fixed bg-center bg-no-repeat bg-cover h-full w-full z-30"></div>
