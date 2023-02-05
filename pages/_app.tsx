@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      <ToastContainer />
+      <ToastContainer style={{ width: '1000px' }} />
     </>
   )
 }

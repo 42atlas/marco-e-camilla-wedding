@@ -58,14 +58,14 @@ const Home: NextPage = () => {
         hideProgressBar: true,
         autoClose: 2000,
         type: 'error',
-        position: 'bottom-right',
+        position: 'top-center',
       })
     } else {
       toast(`${t('toastok')}`, {
         hideProgressBar: true,
         autoClose: 2000,
         type: 'success',
-        position: 'bottom-right',
+        position: 'top-center',
       })
     }
   }
