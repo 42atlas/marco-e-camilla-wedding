@@ -49,8 +49,4 @@
   .absolute-img {
     position: absolute;
   }
-
-  :root {
-    --toastify-toast-width: 1200px;
-  }
 }
