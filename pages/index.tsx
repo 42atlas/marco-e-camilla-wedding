@@ -9,6 +9,7 @@ import buttone_eng from '../public/images/button_eng.png'
 /* import ImageSlider from '../components/ImageSlider' */
 import ImagePopup from '../components/RandomImage'
 /* import lastImage from '../public/images/1.jpg' */
+import { toast } from 'react-toastify'
 
 const Home: NextPage = () => {
   const [name, setName] = useState('')
@@ -51,7 +52,24 @@ const Home: NextPage = () => {
     setNameTwo('')
     setAlle('')
     setTransport('')
+
+    if (name === '') {
+      toast(`${t('toastno')}`, {
+        hideProgressBar: true,
+        autoClose: 2000,
+        type: 'error',
+        position: 'bottom-right',
+      })
+    } else {
+      toast(`${t('toastok')}`, {
+        hideProgressBar: true,
+        autoClose: 2000,
+        type: 'success',
+        position: 'bottom-right',
+      })
+    }
   }
+
   return (
     <main className='' id='doc'>
       <ImagePopup src='/images/cuori.png' />
